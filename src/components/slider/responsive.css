@@ -159,7 +159,6 @@ MAX-WIDTH 800
 	.ca-menu li{ width: 250px;}
  }
 @media screen and (min-width: 600px) and (max-width: 800px) {  
- .ei-title h2,.ei-title h3 {}
 }
  /************************************************************************************
 CAROUSEL
@@ -232,7 +231,6 @@ MAX-WITH 480
 	.back-top, .back-top a, .slide{display:none;}
 	.left { float: none }	
 	.right { float: right; }
-	.ei-title h2,.ei-title h3 {}
 	#testimonials {height:260px !important;}
     #testimonials blockquote{height:260px !important;}
 	.noslide h3 {padding:0px;}
