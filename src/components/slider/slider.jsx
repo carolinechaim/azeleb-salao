@@ -1,9 +1,8 @@
 
 import './responsive.css';
-import './style.css';
 
-const Teeste = () =>(
 
+const Slider =() =>(
 <div id="ei-slider" class="ei-slider">
 	<ul class="ei-slider-large">
 		<li>
@@ -70,7 +69,7 @@ const Teeste = () =>(
 		</div>
 		</li>
 		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image10" class="responsiveslide"/>
+		<img src="http://www.wowthemes.net/demo/studiofrancesca/images/slideshow/large/2.jpg"alt="image10" class="responsiveslide"/>
 		<div class="ei-title">
 			<h2>Stand up & </h2>
 			<h3>Live</h3>
@@ -90,8 +89,12 @@ const Teeste = () =>(
 		<li><a href="#">Slide 9</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb09"/></li>
 		<li><a href="#">Slide 10</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb10"/></li>
 	</ul>
+	<div class="minipause">
 </div>
+</div>
+
 
 )
 
-export default Teeste;
+
+export default Slider
