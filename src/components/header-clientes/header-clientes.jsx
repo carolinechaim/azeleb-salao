@@ -14,11 +14,8 @@ const HeaderClientes = () =>(
 	<div class="headermenu eight columns noleftmarg">
 		<nav id="nav-wrap">
 		<ul id="main-menu" class="nav-bar sf-menu">
-			<li class="current">
-			<a href="/">Logout</a>
-			<ul>
-				<a href="index2.html"> </a>
-			</ul>
+			<li>
+				<a href="unidade">Unidades</a>
 			</li>
 			<li>
 			<a href="#">Nossos Produtos</a>
@@ -46,7 +43,7 @@ const HeaderClientes = () =>(
 			</ul>
 			</li>
 			<li>
-			<a href="contact.html">Contato</a>
+			<a href="unidade">Logout</a>
 			</li>
 		</ul>
 		</nav>

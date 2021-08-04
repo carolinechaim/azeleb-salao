@@ -9,7 +9,7 @@
  *
  * CHANGELOG: http://users.tpg.com.au/j_birch/plugins/superfish/changelog.txt
  */
-
+import $ from 'jquery';
 ;(function($){
 	$.fn.superfish = function(op){
 

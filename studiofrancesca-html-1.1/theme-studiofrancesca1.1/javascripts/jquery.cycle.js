@@ -7,6 +7,7 @@
  * http://jquery.malsup.com/license.html
  * Requires: jQuery v1.2.6 or later
  */
+import $ from 'jquery';
 ;(function($) {
 
 var ver = '2.88';
