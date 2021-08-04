@@ -1,7 +1,7 @@
 
 
 
-const Header = () =>(
+const HeaderClientes = () =>(
 
     <div class="row">
 	<div class="headerlogo four columns">
@@ -62,4 +62,4 @@ const Header = () =>(
 </div>
 )
 
-export default Header;
+export default HeaderClientes;
