@@ -15,7 +15,7 @@ const HeaderClientes = () =>(
 		<nav id="nav-wrap">
 		<ul id="main-menu" class="nav-bar sf-menu">
 			<li class="current">
-			<a href="/">Menu</a>
+			<a href="/">Logout</a>
 			<ul>
 				<a href="index2.html"> </a>
 			</ul>
@@ -39,18 +39,10 @@ const HeaderClientes = () =>(
 			</ul>
 			</li>
 			<li>
-			<a href="#">Sobre nós</a>
+			<a href="#">Você</a>
 			<ul>
-				<li><a href="about.html">Sobre nós</a></li>
-				<li><a href="services.html">Serviços</a></li>
-			</ul>
-			</li>
-			<li>
-			<a href="#">Login</a>
-			<ul>
-				<li><a href = "login-cliente">Cliente</a></li>
-				<li><a href = "login-funcionario">Funcionário</a></li>
-				<li><a href = "login-administracao">Administração</a></li>
+				<li><a href="about.html">Sua conta</a></li>
+				<li><a href="services.html">Seus Serviços</a></li>
 			</ul>
 			</li>
 			<li>
