@@ -69,10 +69,10 @@ const Slider =() =>(
 		</div>
 		</li>
 		<li>
-		<img src="http://www.wowthemes.net/demo/studiofrancesca/images/slideshow/large/2.jpg"alt="image10" class="responsiveslide"/>
+		<img src="https://i.ibb.co/pJY94PR/Untitled.png"alt="image10" class="responsiveslide"/>
 		<div class="ei-title">
-			<h2>Stand up & </h2>
-			<h3>Live</h3>
+			<h2>Hidratado & </h2>
+			<h3>Natural</h3>
 		</div>
 		</li>
 	</ul>

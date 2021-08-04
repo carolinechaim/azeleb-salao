@@ -9,8 +9,8 @@ const AnimatedColumns = () => (
 			<a href="#">
 			<span class="ca-icon"><i class="fa fa-heart"></i></span>
 			<div class="ca-content">
-				<h2 class="ca-main">Responsive<br/> Design</h2>
-				<h3 class="ca-sub">Across all major devices</h3>
+				<h2 class="ca-main">Lavagem<br/> Secagem</h2>
+				<h3 class="ca-sub">A melhor escova de São Paulo</h3>
 			</div>
 			</a>
 			</li>
@@ -18,8 +18,8 @@ const AnimatedColumns = () => (
 			<a href="#">
 			<span class="ca-icon"><i class="fa fa-bullhorn"></i></span>
 			<div class="ca-content">
-				<h2 class="ca-main">Friendly<br/> Documentation</h2>
-				<h3 class="ca-sub">Straight to the point</h3>
+				<h2 class="ca-main">Manicure<br/> Pedicure</h2>
+				<h3 class="ca-sub">Manicures e Pedicures profissionais</h3>
 			</div>
 			</a>
 			</li>
@@ -27,8 +27,8 @@ const AnimatedColumns = () => (
 			<a href="#">
 			<span class="ca-icon"><i class="fa fa-user"></i></span>
 			<div class="ca-content">
-				<h2 class="ca-main">Alternate<br/> Home Pages</h2>
-				<h3 class="ca-sub">Full slider, boxed or none</h3>
+				<h2 class="ca-main">Massagem<br/> Drenagem</h2>
+				<h3 class="ca-sub">Ambientes ideiais para massagem e drenagem</h3>
 			</div>
 			</a>
 			</li>
@@ -36,8 +36,8 @@ const AnimatedColumns = () => (
 			<a href="#">
 			<span class="ca-icon"><i class="fa fa-camera"></i></span>
 			<div class="ca-content">
-				<h2 class="ca-main">Filterable<br/> Portofolio</h2>
-				<h3 class="ca-sub">Isotop & PrettyPhoto</h3>
+				<h2 class="ca-main">Depilação<br/> Sombrancelha</h2>
+				<h3 class="ca-sub">Alta qualidade</h3>
 			</div>
 			</a>
 			</li>
