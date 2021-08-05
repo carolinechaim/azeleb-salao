@@ -1,14 +1,23 @@
 
+import { current } from 'immer';
+import React from 'react';
 
 
-const Header = () =>(
+import { auth } from '../../firebase/firebase.utils';
+
+const Header = ({ currentUser }) =>(
 
     <div class="row">
 	<div class="headerlogo four columns">
 		<div class="logo">
+			
 			<a href="index.html">
-			<h4>Studio Azeleb</h4>
+			<h1>Studio Azeleb</h1>
 			</a>
+
+			
+			
+			
 		</div>
 	</div>
 	<div class="headermenu eight columns noleftmarg">
@@ -45,17 +54,40 @@ const Header = () =>(
 				<li><a href="services.html">Serviços</a></li>
 			</ul>
 			</li>
+
+			{ 
+
+				currentUser ? (
+				<li>
+					<a href="/" onClick={() => auth.signOut()}> Logout</a>
+				</li>
+				
+				):(
+				<li>
+				<a href="#">Login</a>
+				<ul>
+					<li><a href = "login-cliente">Cliente</a></li>
+					<li><a href = "login-funcionario">Funcionário</a></li>
+					<li><a href = "login-administracao">Administração</a></li>
+				</ul>
+				</li>
+				)
+
+			}
+				{ 
+
+		currentUser ? (
+
 			<li>
-			<a href="#">Login</a>
-			<ul>
-				<li><a href = "login-cliente">Cliente</a></li>
-				<li><a href = "login-funcionario">Funcionário</a></li>
-				<li><a href = "login-administracao">Administração</a></li>
-			</ul>
+			<a href="/unidade">Reserva</a>
 			</li>
-			<li>
-			<a href="contact.html">Contato</a>
-			</li>
+
+		):(
+			null
+		)
+
+		}
+
 		</ul>
 		</nav>
 	</div>
