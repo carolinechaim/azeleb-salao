@@ -1,4 +1,4 @@
-import SignIn from "../../components/sign-in/sign-in";
+import SignIn from "../../components/sign-in/sign-in-adm";
 import Header from "../../components/header/header";
 
 import './login-adm.scss';

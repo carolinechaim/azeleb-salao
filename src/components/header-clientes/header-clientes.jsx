@@ -15,6 +15,9 @@ const HeaderClientes = () =>(
 		<nav id="nav-wrap">
 		<ul id="main-menu" class="nav-bar sf-menu">
 			<li>
+				<a href="/">Menu</a>
+			</li>
+			<li>
 				<a href="unidade">Unidades</a>
 			</li>
 			<li>
