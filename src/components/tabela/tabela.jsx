@@ -1,7 +1,7 @@
 
 
 
-const Tabela =() => (
+const Tabela =({param}) => (
 
     <div class="seven columns">
     <table>
@@ -10,9 +10,11 @@ const Tabela =() => (
         <th>
             Segunda
         </th>
+
+	
         <th>
-            Terça
-        </th>
+                Terça
+            </th>
         <th>
             Quarta
         </th>
@@ -39,9 +41,19 @@ const Tabela =() => (
         <td>
         9:00
         </td>
-        <td>
-        9:00
-        </td>
+
+        { 
+		param === 'simple1' || param === 'simple2' ? (
+            <td>
+            9:00
+            </td>
+				
+				):(
+					null
+				)
+
+			}
+
         <td>
         9:00
         </td>
@@ -59,9 +71,7 @@ const Tabela =() => (
 
 
     <tr>
-        <td>
-            10:00
-        </td>
+
         <td>
             10:00
         </td>
@@ -80,6 +90,18 @@ const Tabela =() => (
         <td>
             10:00
         </td>
+        { 
+		param === 'simple1' || param === 'simple3' ? (
+            <td>
+            10:00
+            </td>
+				
+				):(
+					null
+				)
+
+			}
+
     </tr>
 
     <tr>
@@ -89,9 +111,18 @@ const Tabela =() => (
         <td>
         11:00
         </td>
-        <td>
+        { 
+		param === 'simple1'|| param === 'simple4'? (
+            <td>
             11:00
-        </td>
+            </td>
+				
+				):(
+					null
+				)
+
+			}
+
         <td>
         11:00
         </td>
@@ -117,9 +148,17 @@ const Tabela =() => (
         <td>
         12:00
         </td>
-        <td>
-            12:00
-        </td>
+        { 
+		param === 'simple3'|| param === 'simple5'? (
+            <td>
+            11:00
+            </td>
+				
+				):(
+					null
+				)
+
+			}
         <td>
         12:00
         </td>
