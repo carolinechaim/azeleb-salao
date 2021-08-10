@@ -7,7 +7,7 @@ import LoginFuncionario from './pages/login-funcionario/login-funcionario';
 import LoginAdm from './pages/login-adm/login-adm';
 import Unidade from './pages/cliente/unidade/unidade';
 import Reserva from './pages/cliente/reserva/reserva';
-import Header from './components/header/header';
+import Header from './components/header/header.component';
 import { auth  } from './firebase/firebase.utils';
 import React from 'react';
 
