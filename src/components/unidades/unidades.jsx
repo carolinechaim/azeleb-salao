@@ -42,7 +42,7 @@ const Unidades = () =>(
 		</div>
 
 		<div class="three columns category nature">
-			<h5>MOEMA</h5>
+			<h5>ITAIM BIBI</h5>
 			<p>
 				 Rua Sabiá, 3300
 			</p>
@@ -60,7 +60,7 @@ const Unidades = () =>(
 		</div>
 
 		<div class="three columns category castles">
-			<h5>BROOKLING NOVO</h5>
+			<h5>BROOKLIN NOVO </h5>
 			<p>
 				Rua Afonso Celso, 223.
 			</p>
